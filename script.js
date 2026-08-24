@@ -39,3 +39,11 @@ if (params.get("submitted") === "true") {
   const successMessage = document.querySelector(".form-success");
   if (successMessage) successMessage.hidden = false;
 }
+
+const formNextUrl = document.querySelector("#formNextUrl");
+if (formNextUrl) {
+  const cleanPath = window.location.pathname.endsWith("/")
+    ? window.location.pathname
+    : `${window.location.pathname}/`;
+  formNextUrl.value = `${window.location.origin}${cleanPath}?submitted=true#contact`;
+}
