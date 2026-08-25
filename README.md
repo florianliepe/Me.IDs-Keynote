@@ -2,9 +2,11 @@
 
 Bilingual keynote follow-up landing page for the Wascosa VIP Circle 2026.
 
-The site presents the Intellectual Twin concept, its cargo and rail freight value proposition, and a direct deep-dive request form. It is deployed through GitHub Pages.
+The site presents the Intellectual Twin concept, its cargo and rail freight value proposition, and a direct deep-dive request form. It is deployed through Azure Static Web Apps and GitHub Pages.
 
-Primary Azure site: <https://mango-beach-0db761103.7.azurestaticapps.net/>
+Canonical site: <https://intellectual-twin-keynote.eraneos.com/>
+
+Azure fallback: <https://mango-beach-0db761103.7.azurestaticapps.net/>
 
 GitHub Pages fallback: <https://florianliepe.github.io/Me.IDs-Keynote/>
 
